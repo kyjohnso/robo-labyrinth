@@ -1,0 +1,234 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "d. w. r.",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "MoveIntent",
+          "slots": [
+            {
+              "name": "One",
+              "type": "CommandType"
+            },
+            {
+              "name": "Two",
+              "type": "CommandType"
+            },
+            {
+              "name": "Three",
+              "type": "CommandType"
+            },
+            {
+              "name": "Four",
+              "type": "CommandType"
+            },
+            {
+              "name": "Five",
+              "type": "CommandType"
+            },
+            {
+              "name": "Six",
+              "type": "CommandType"
+            },
+            {
+              "name": "Seven",
+              "type": "CommandType"
+            },
+            {
+              "name": "Eight",
+              "type": "CommandType"
+            },
+            {
+              "name": "Nine",
+              "type": "CommandType"
+            },
+            {
+              "name": "Ten",
+              "type": "CommandType"
+            },
+            {
+              "name": "A",
+              "type": "DistanceType"
+            },
+            {
+              "name": "B",
+              "type": "DistanceType"
+            },
+            {
+              "name": "C",
+              "type": "DistanceType"
+            },
+            {
+              "name": "D",
+              "type": "DistanceType"
+            },
+            {
+              "name": "E",
+              "type": "DistanceType"
+            },
+            {
+              "name": "F",
+              "type": "DistanceType"
+            },
+            {
+              "name": "G",
+              "type": "DistanceType"
+            },
+            {
+              "name": "H",
+              "type": "DistanceType"
+            },
+            {
+              "name": "I",
+              "type": "DistanceType"
+            },
+            {
+              "name": "J",
+              "type": "DistanceType"
+            }
+          ],
+          "samples": [
+            "go {One} {A}",
+            "go {One} {A} then {Two} {B} ",
+            "go {One} {A} then {Two} {B} then {Three} {C}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D} then {Five} {E}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D} then {Five} {E} then {Six} {F}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D} then {Five} {E} then {Six} {F} then {Seven} {G}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D} then {Five} {E} then {Six} {F} then {Seven} {G} then {Eight} {H}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D} then {Five} {E} then {Six} {F} then {Seven} {G} then {Eight} {H} then {Nine} {I}",
+            "go {One} {A} then {Two} {B} then {Three} {C} then {Four} {D} then {Five} {E} then {Six} {F} then {Seven} {G} then {Eight} {H} then {Nine} {I} then {Ten} {J}",
+            "go {One}",
+            "go {One} then {Two}",
+            "go {One} then {Two} then {Three}",
+            "go {One} then {Two} then {Three} then {Four}",
+            "go {One} then {Two} then {Three} then {Four} then {Five}",
+            "go {One} then {Two} then {Three} then {Four} then {Five} then {Six}",
+            "go {One} then {Two} then {Three} then {Four} then {Five} then {Six} then {Seven}",
+            "go {One} then {Two} then {Three} then {Four} then {Five} then {Six} then {Seven} then {Eight}",
+            "go {One} then {Two} then {Three} then {Four} then {Five} then {Six} then {Seven} then {Eight} then {Nine}",
+            "go {One} then {Two} then {Three} then {Four} then {Five} then {Six} then {Seven} then {Eight} then {Nine} then {Ten}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "name": "DistanceType",
+          "values": [
+            {
+              "name": {
+                "value": "one"
+              }
+            },
+            {
+              "name": {
+                "value": "two"
+              }
+            },
+            {
+              "name": {
+                "value": "three"
+              }
+            },
+            {
+              "name": {
+                "value": "four"
+              }
+            }
+          ]
+        },
+        {
+          "name": "CommandType",
+          "values": [
+            {
+              "name": {
+                "value": "none"
+              }
+            },
+            {
+              "name": {
+                "value": "brake"
+              }
+            },
+            {
+              "name": {
+                "value": "go backward"
+              }
+            },
+            {
+              "name": {
+                "value": "go forward"
+              }
+            },
+            {
+              "name": {
+                "value": "go right"
+              }
+            },
+            {
+              "name": {
+                "value": "go left"
+              }
+            },
+            {
+              "name": {
+                "value": "turn right"
+              }
+            },
+            {
+              "name": {
+                "value": "turn left"
+              }
+            },
+            {
+              "name": {
+                "value": "right"
+              }
+            },
+            {
+              "name": {
+                "value": "left"
+              }
+            },
+            {
+              "name": {
+                "value": "backwards"
+              }
+            },
+            {
+              "name": {
+                "value": "backward"
+              }
+            },
+            {
+              "name": {
+                "value": "forwards"
+              }
+            },
+            {
+              "name": {
+                "value": "forward"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
