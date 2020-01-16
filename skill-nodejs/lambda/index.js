@@ -1,18 +1,3 @@
-/*
- * Copyright 2019 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
- *
- * You may not use this file except in compliance with the terms and conditions 
- * set forth in the accompanying LICENSE.TXT file.
- *
- * THESE MATERIALS ARE PROVIDED ON AN "AS IS" BASIS. AMAZON SPECIFICALLY DISCLAIMS, WITH 
- * RESPECT TO THESE MATERIALS, ALL WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING 
- * THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-*/
-
-// This sample demonstrates sending directives to an Echo connected gadget from an Alexa skill
-// using the Alexa Skills Kit SDK (v2). Please visit https://alexa.design/cookbook for additional
-// examples on implementing slots, dialog management, session persistence, api calls, and more.
-
 const Alexa = require('ask-sdk-core');
 const Util = require('./util');
 const Common = require('./common');
